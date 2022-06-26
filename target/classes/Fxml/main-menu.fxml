@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import java.net.URL?>
+<?import javafx.geometry.Insets?>
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="view.MainMenu"
+            prefHeight="450.0" prefWidth="800.0" styleClass="main-menu-background">
+
+        <VBox spacing="7" fx:id="mainMenuButtons">
+            <padding>
+                <Insets left="570" top="15"/>
+            </padding>
+            <Button text="Login" styleClass="start-menu-buttons" fx:id="loginButton"/>
+            <Button text="Sing Up" styleClass="start-menu-buttons" fx:id="singUpButton"/>
+            <Button text="Start Game" styleClass="start-menu-buttons" fx:id="startGame"/>
+            <Button text="Start as a guest" styleClass="start-menu-buttons" fx:id="guestStartButton"/>
+            <Button text="Profile menu" styleClass="start-menu-buttons" fx:id="profileButton"/>
+            <Button text="Leaderboard" styleClass="start-menu-buttons" fx:id="leaderboardButton"/>
+            <Button text="Exit" styleClass="start-menu-buttons" fx:id="exitButton"/>
+        </VBox>
+
+    <stylesheets>
+        <URL value="@../CSS/Style.css"/>
+    </stylesheets>
+
+</AnchorPane>
